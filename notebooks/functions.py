@@ -95,3 +95,9 @@ def Null_Median(df: pd.DataFrame, column_name):
     df2[column_name] = df2[column_name].fillna(Median)
     
     return df2
+
+
+    
+
+
+    
