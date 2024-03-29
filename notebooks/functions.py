@@ -97,6 +97,22 @@ def Null_Median(df: pd.DataFrame, column_name):
     return df2
 
 
+def convert_float_to_int(df: pd.DataFrame, column_name: str) -> pd.DataFrame:
+    '''
+    Converts Float to Integer in the specified column of a DataFrame.
+    
+    Parameters:
+    - df (pd.DataFrame): Input DataFrame.
+    - column_name (str): Name of the column to be converted.
+    
+    Returns:
+    - pd.DataFrame: DataFrame with the specified column converted to integer.
+    '''
+    df_copy = df.copy()
+    df_copy[column_name] = df_copy[column_name].astype(int)
+    return df_copy
+
+
     
 
 

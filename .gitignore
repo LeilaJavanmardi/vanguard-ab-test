@@ -1,0 +1,7 @@
+.env
+env2/
+.ipynb_checkpoints/
+nogithub/
+.DS_Store
+requirements*.in
+.virtual_documents/
