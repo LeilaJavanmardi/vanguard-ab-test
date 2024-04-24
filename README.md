@@ -54,3 +54,8 @@ The high Z-statistic (20.14) and extremely low p-value (approximately 0) indicat
 
 Optimize Design: Address areas of higher error rates in the test group by optimizing design elements to enhance user clarity and reduce confusion.
 Additional Data Needs: Incorporating direct feedback and qualitative data for deeper understanding of client responses.
+
+### Repository Main Structure:
+Data: Contains both the raw and cleaned datasets.
+<br>Notebooks: Houses exploratory and final analysis notebooks, the **final notebook** can be found in the "clean" folder 
+<br>Slides: Provides a link to the presentation slides.
